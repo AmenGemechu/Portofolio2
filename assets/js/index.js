@@ -5,6 +5,7 @@ const pickUserHand = (hand) => {
     let hands = document.querySelector(".hands");
     hands.style.display = "none";
 
-
     //Take to the next page
+
 }
+
