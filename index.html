@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/index.js"></script>
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 <body>
@@ -25,19 +26,19 @@
         <!--Game area-->
         <div class="hands">
             <div class="paper">
-                <img src="assets/images/paper.png">
+                <img src="assets/images/paper.png" onclick="pickUserHand('paper')">
             </div>
             <div class="scissors">
-                <img src="assets/images/scissors.png">
+                <img src="assets/images/scissors.png" onclick="pickUserHand('scissors')">
             </div>
             <div class="rock">
-                <img src="assets/images/rock.png">
+                <img src="assets/images/rock.png" onclick="pickUserHand('rock')">
             </div>
             <div class="lizard">
-                <img src="assets/images/lizard.png">
+                <img src="assets/images/lizard.png" onclick="pickUserHand('lizard')">
             </div>
             <div class="spock">
-                <img src="assets/images/spock.png">
+                <img src="assets/images/spock.png" onclick="pickUserHand('spock')">
             </div>
         </div>
     </div>
