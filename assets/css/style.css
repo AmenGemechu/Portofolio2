@@ -12,4 +12,38 @@ body {
     width: 100vw;
     height: 100vh;
     background: #522552;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.scoreboard img {
+        width: 200px;
+        border-radius: 20px;
+        height: 200px;
+        margin-left: 50px;
+}
+
+.scoreboard {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.score {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
