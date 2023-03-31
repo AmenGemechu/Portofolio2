@@ -29,11 +29,12 @@ body {
     margin: 50px;
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 600px;
     height: 250px;
-    border: 1px solid white;
+    border: 1px solid #683d68;
     border-radius: 20px;
     align-items: center;
+    background: #683d68;
 }
 
 .score {
@@ -46,4 +47,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.score p {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
