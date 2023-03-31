@@ -29,8 +29,8 @@ body {
     margin: 50px;
     display: flex;
     justify-content: space-between;
-    width: 600px;
-    height: 250px;
+    width: 50%;
+    height:400px;
     border: 1px solid #683d68;
     border-radius: 20px;
     align-items: center;
@@ -57,7 +57,7 @@ body {
 
 /*Game simboles*/
 .hands {
-    width: 50%;
+    width: 70%;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +76,13 @@ body {
     transition: 100ms;
     cursor: pointer;
 }
+
+.hands p {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+  }
 
 .contest {
     width: 80%;
