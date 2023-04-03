@@ -143,6 +143,6 @@ const setDecision = (decision) => {
 }
 
 const setScore = (newScore) => {
-    document.querySelector(".score h1").innerText = newScore;
+    document.querySelector(".score h2").innerText = score;
 }
 
