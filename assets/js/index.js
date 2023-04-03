@@ -23,40 +23,39 @@ const pickUserHand = (hand) => {
 
     //Sets user selection
     document.getElementById("userPickImage").src = handOptions[hand];
-
-    //Computer selection
-    let computerHand = pickComputerHand();
+    pickComputerHand(hand);
     
-}
+};
+
 //Picka computer hand function
 const pickComputerHand = (hand) => {
-    let hands = ["rock", "paper", "scissors", "lizard", "spock"]; //Array
-    let computerHand = hands[Math.floor(Math.random() * 5)];
+    let hands = ["rock", "paper", "scissors", "lizard", "spock"]; 
+    let computerHand = hands[Math.floor(Math.random() * hands.length)];
 
     //Set computer selection
-    document.getElementById = ("computerPickImage").src = handOptions[computerHand];
+    document.getElementById = ("computerPickImage").src = handOptions[computerHand]
 
-    return computerHand;
+    referee(hand, computerHand);
 
-}
+};
 
 //Referee winner/looser
 const referee = (userHand, computerHand) => {
     //Paper
-    if (userHand == "paper" && cpHand == "scissors") {
+    if (userHand == "paper" && computerHand == "scissors") {
       setDecision("YOU LOSE!");
     }
-    if (userHand == "paper" && cpHand == "rock") {
+    if (userHand == "paper" && computerHand == "rock") {
         setDecision("YOU WIN!");
         setScore(SCORE + 1);
       }
-    if (userHand == "paper" && cpHand == "paper") {
+    if (userHand == "paper" && computerHand == "paper") {
         setDecision("It's a tie!");
       }
-    if (userHand == "paper" && cpHand == "lizard") {
+    if (userHand == "paper" && computerHand == "lizard") {
         setDecision("YOU LOOSE!");
       }
-    if (userHand == "paper" && cpHand == "SPOCK") {
+    if (userHand == "paper" && computerHand == "spock") {
         setDecision("YOU WON!");
         setScore(SCORE + 1);
       }
@@ -69,13 +68,13 @@ const referee = (userHand, computerHand) => {
           setDecision("YOU WIN!");
           setScore(SCORE + 1);
         }
-      if (userHand == "rock" && cpómputerHand == "rock") {
+      if (userHand == "rock" && computerHand == "rock") {
           setDecision("It's a tie!");
         }
       if (userHand == "rock" && computerHand == "spock") {
           setDecision("YOU LOOSE!");
         }
-      if (userHand == "rock" && cpHand == "lizard") {
+      if (userHand == "rock" && computerHand == "lizard") {
           setDecision("YOU WON!");
           setScore(SCORE + 1);
         }
@@ -113,7 +112,7 @@ const referee = (userHand, computerHand) => {
         if (userHand == "lizard" && computerHand == "scissors") { 
             setDecision("YOU LOOSE!");
             }
-        if (userHand == "scissors" && computerHand == "spock") { 
+        if (userHand == "lizard" && computerHand == "spock") { 
             setDecision("YOU WON!");
             setScore(SCORE + 1);
             }
@@ -139,11 +138,11 @@ const referee = (userHand, computerHand) => {
 
     }
 
-const setWinner = (winner) => {
-    console.log(winner);
+const setDecision = (decision) => {
+    document.querySelector(".decision h2").innerText = decision;
 }
 
-const setScore = (score) => {
-    console.log(score);
+const setScore = (newScore) => {
+    document.querySelector(".score h1").innerText = newScore;
 }
 
