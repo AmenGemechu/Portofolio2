@@ -154,7 +154,7 @@ const setDecision = (decision) => {
   document.querySelector(".decision h2").innerText = decision;
 }
 
-
+//Increments score
 const setScore = (newScore) => {
   SCORE = newScore;
   document.querySelector(".score h2").innerText = newScore;
