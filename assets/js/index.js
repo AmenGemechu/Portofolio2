@@ -29,6 +29,7 @@ const pickUserHand = (hand) => {
 
 //Picka computer hand function
 const pickComputerHand = (hand) => {
+  console.log(hand);
   
     let hands = ["rock", "paper", "scissors", "lizard", "spock"]; 
     let computerHand = hands[Math.floor(Math.random() * hands.length)];
@@ -44,11 +45,12 @@ const pickComputerHand = (hand) => {
 const referee = (userHand, computerHand) => {
   //Rock
   if (userHand == "rock" && computerHand == "scissors") {
-    setDecision("YOU LOSE!");
+    setDecision("YOU WON!");
+    setScore(SCORE + 1);
+
   }
   if (userHand == "rock" && computerHand == "paper") {
-      setDecision("YOU WIN!");
-      setScore(SCORE + 1);
+      setDecision("YOU LOSE!");
     }
   if (userHand == "rock" && computerHand == "rock") {
       setDecision("It's a tie!");
