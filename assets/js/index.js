@@ -22,18 +22,19 @@ const pickUserHand = (hand) => {
     contest.style.display = "flex";
 
     //Sets user selection
-    document.getElementById("userPickImage").src = handOptions[hand];
+    document.querySelector("#userPickImage").src = handOptions[hand];
     pickComputerHand(hand);
     
 };
 
 //Picka computer hand function
 const pickComputerHand = (hand) => {
+  
     let hands = ["rock", "paper", "scissors", "lizard", "spock"]; 
     let computerHand = hands[Math.floor(Math.random() * hands.length)];
 
     //Set computer selection
-    document.getElementById = ("computerPickImage").src = handOptions[computerHand]
+    document.querySelector("#computerPickImage").src  = handOptions[computerHand]
 
     referee(hand, computerHand);
 
