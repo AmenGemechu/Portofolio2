@@ -12,7 +12,7 @@ let SCORE = 0;
 
 //Pick a user hand function
 const pickUserHand = (hand) => {
-    console.log(hand); //takeout
+  
     //hide the current page
     let hands = document.querySelector(".hands");
     hands.style.display = "none";
@@ -29,7 +29,6 @@ const pickUserHand = (hand) => {
 
 //Picka computer hand function
 const pickComputerHand = (hand) => {
-  console.log(hand);
   
     let hands = ["rock", "paper", "scissors", "lizard", "spock"]; 
     let computerHand = hands[Math.floor(Math.random() * hands.length)];
@@ -151,7 +150,7 @@ const restartGame = () => {
     
 
 const setDecision = (decision) => {
-  document.querySelector(".decision h2").innerText = decision;
+  document.querySelector(".decision h3").innerText = decision;
 }
 
 //Increments score
