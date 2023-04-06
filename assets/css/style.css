@@ -21,14 +21,18 @@ body {
 }
 
 .header {
-    margin-top: 4%;
+    margin-top: 10%;
+}
+.header img {
+    width: 200px;
+    height: 200px;
 }
 
 .scoreboard img {
-        width: 70%;
-        border-radius: 20px;
-        height: 50%;
-        margin-left: 50px;
+    width: 70%;
+    border-radius: 20px;
+    height: 50%;
+    margin-left: 50px;
 }
 
 
@@ -99,16 +103,16 @@ body {
     height: 500px;
     display: none; /*hides the contest area*/
     margin-top: 50px;
+    flex: 1;
+    justify-content: center;
 }
 
 .contest img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
-.contest > div {
-    flex: 1;
-}
+    
 .contest h2 {
     color: white;
     font-size: 25px;
@@ -122,6 +126,7 @@ body {
 }
 
 .referee {
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
