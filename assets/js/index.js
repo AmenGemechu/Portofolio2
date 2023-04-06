@@ -150,7 +150,7 @@ const restartGame = () => {
     
 
 const setDecision = (decision) => {
-  document.querySelector(".decision h3").innerText = decision;
+  document.querySelector(".decision h4").innerText = decision;
 }
 
 //Increments score
