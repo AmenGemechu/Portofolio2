@@ -112,7 +112,7 @@ body {
     
 .contest h2 {
     color: white;
-    font-size: 25px;
+    font-size: 150%;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -123,16 +123,13 @@ body {
 }
 
 .userHand, .computerHand {
-    height: 250px;
+    height: 50%;
+    width: 20%;
 }
 
 
 .referee {
-    margin: 10px;
-    display: flex;
-   /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
+    margin-top: 250px;
 }
 
 .decision h4 {

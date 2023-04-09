@@ -18,7 +18,7 @@ const pickUserHand = (hand) => {
     hands.style.display = "none";
 
     //Takes to the next page
-    let contest =document.querySelector(".contest");
+    let contest = document.querySelector(".contest");
     contest.style.display = "flex";
 
     //Sets user selection
@@ -138,6 +138,7 @@ const referee = (userHand, computerHand) => {
       setScore(SCORE + 1);
       }
 
+    
 };
 
 const restartGame = () => {
@@ -146,6 +147,8 @@ const restartGame = () => {
     
   let hands = document.querySelector(".hands");
   hands.style.display = "flex";
+  
+
 }
     
 

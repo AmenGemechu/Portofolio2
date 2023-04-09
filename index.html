@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/index.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>RPS+</title>
 </head>
 <body>
@@ -49,10 +52,14 @@
         <!--Game area-->
         <div class="contest">
             <div class="userHand">
-                <h2>YOU</h2>
+                <h2><YOU class=""></YOU></h2>
                 <div class="handImageContainer">
                     <img id="userPickImage" src="assets/images/rock.png">
                 </div>
+            </div>
+
+            <div class="referee">
+                <div class="newgame" onclick="restartGame()">PLAY AGAIN</div>
             </div>
 
             <div class="computerHand">
@@ -63,18 +70,17 @@
             </div>
 
         </div>
+        <!--Score Board-->
         <div class="scoreboard">
             <div class="score">
                 <p>score</p>
                 <h2>0</h2>
             </div>
 
-            <div class="decision"><h4>YOU W0N</h4></div>
+            <div class="decision"><h4>YOU..</h4></div>
 
         </div>
-        <div class="referee">
-            <div class="newgame" onclick="restartGame()">PLAY AGAIN</div>
-        </div>
+
         <div class="gamerules">
             <h5>Game Rules</h5>
             <p>
