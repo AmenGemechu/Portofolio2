@@ -14,33 +14,28 @@ and is beaten by the remaining two.
 ## User Story
 Create an interactive game Rock, Paper, Scissors Lizard Spock where the user plays against the computer.
 
-* At the top of the screen, the game logo and a display "Game Rules" button providing the user with the rules of the game.
+* The Logo image is found is at the top of the screen making it easy to understand what the site is about by displaying the Rock Paper Scisorss Lizard Spock text with the hand simboles.
 
-  * Game Ruels" displays the rules with a dropdowm list.
+![Screenshot 2023-04-10 at 00-20-17 RPS](https://user-images.githubusercontent.com/81637641/230799229-e8a1414b-b21e-486b-8024-0742f2b37b6c.png)
 
-The popup should include the following:
 
-  * Rules for the game showing :
+## Game Rules
+
+Rules of the game are displayed on last section of both pages right before the footer.
+
+![Screenshot 2023-04-10 at 00-47-24 RPS](https://user-images.githubusercontent.com/81637641/230800056-5ce0d3de-a140-4c46-aad6-0c6f4d3d8be0.png)
+
+## Footer
+The footer holds Author name copy right icon and date.
+
+![Screenshot 2023-04-10 at 00-52-20 RPS](https://user-images.githubusercontent.com/81637641/230800150-97316fce-6552-421c-84e3-7f447c176d7b.png)
     
-## Rules
-    
-The rules of Rock-paper-scissors-lizard-Spock are:
-* Scissors cut paper
-* Paper covers rock
-* Rock crushes lizard
-* Lizard poisons Spock
-* Spock smashes (or melts) scissors
-* Scissors decapitate lizard
-* Lizard eats paper
-* Paper disproves Spock
-* Spock vaporizes rock
-* Rock breaks scissors
 
+## First (Introduction) page
 
+Introduction area of the game shows “User” scores. The scores will increment by 1 when the user wins.
 
-Results area of the game shows “User” scores. The scores will increment by 1 when the user wins.
-
-The Result area also includes a text that tells the user whether the score is a wina/lose or a tie.
+The Result area also includes a text that tells the user whether the score is a win/lose or a tie.
 
 The game area displays 5 control buttons for the user to select their choice.
 
@@ -54,8 +49,17 @@ The game area displays 5 control buttons for the user to select their choice.
 
 * Button 5 shows the vulcan hand gesture emoji from Star Trek and the word Spock underneath.
 
+![Screenshot 2023-04-10 at 00-25-30 RPS](https://user-images.githubusercontent.com/81637641/230799756-fca35f00-e100-4d9b-80cb-40c52f09276a.png)
+
 Once the user has pressed one of the choice buttons, the user will automaticly be taken to the contest-area and the code will generate a random choice to reflect the computers choice. Both choices will then be shown as a image in the contest area for the user and the score below will be updated accordingly.
     
+![Screenshot 2023-04-10 at 00-40-45 RPS](https://user-images.githubusercontent.com/81637641/230800370-81a84ee4-7f16-42e3-9f9c-9cbf1f8b1114.png)
+  
+This page also includes a "play again" button that allows the user to continue playing as much as they wish.
+
+![Screenshot 2023-04-10 at 01-02-35 RPS](https://user-images.githubusercontent.com/81637641/230800490-4af1c6a9-4dbe-433d-80e8-97c44ad19486.png)
+
+
 ## Target audience
 
 The target audience is anyone who is interested in playing learning about the
@@ -70,11 +74,12 @@ RPS+ is designed to be responsive and accessible on a range of devices, making i
 
 * As a user, I can navigate with ease throughout the site.
 
-* As a user, I can use play the online game on mobile as well as desktop with ease.
+* As a user, I can play the online game on mobile as well as desktop with eassily.
 
 * As a user, I can understand which image represents which simbole by reading the text desplayed underneath.
 
-* As a user, I can switch between the intr-page and contest area.
+* As a user, I can switch between the first-page and contest area with just one click.
+* As a user, I can simply refresh my memories on the rules without having to go for a search ealse where.
 
 ## Skeleton
 
@@ -96,7 +101,7 @@ image of wireframe
 
 # Contest Area
 
-  The contest area is where the user will be able to continue to play the game by clicking the "Play Again" icon.
+  The contest area is where the user will be able to continue to play the game by clicking the "Play Again" butten.
   
   
 
@@ -104,10 +109,23 @@ image of wireframe
   The user will be able to see their score and a text display will make it known to the user if they won/lost or if it is a a tie.
 
 
+## Rules
+    
+The rules of Rock-paper-scissors-lizard-Spock are:
+* Scissors cut paper
+* Paper covers rock
+* Rock crushes lizard
+* Lizard poisons Spock
+* Spock smashes (or melts) scissors
+* Scissors decapitate lizard
+* Lizard eats paper
+* Paper disproves Spock
+* Spock vaporizes rock
+* Rock breaks scissors
 
 
 
-Testing
+## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
