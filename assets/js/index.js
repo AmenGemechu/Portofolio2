@@ -5,7 +5,7 @@ const handOptions = {
     "scissors": "assets/images/scisors.png",
     "lizard": "assets/images/lizard.png",
     "spock": "assets/images/spock.png"
-}
+};
 
 //Score
 let SCORE = 0;
@@ -147,18 +147,16 @@ const restartGame = () => {
     
   let hands = document.querySelector(".hands");
   hands.style.display = "flex";
-  
 
-}
+};
     
 
 const setDecision = (decision) => {
   document.querySelector(".decision h4").innerText = decision;
-}
+};
 
 //Increments score
 const setScore = (newScore) => {
   SCORE = newScore;
   document.querySelector(".score h2").innerText = newScore;
-}
-
+};
