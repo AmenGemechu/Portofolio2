@@ -97,9 +97,10 @@ body {
     margin-top: 4%;
   }
 
+  /*Contest page*/
 .contest {
     width: 80%;
-    display: none; /*hides the contest area*/
+    display: none;
     margin-top: 50px;
     justify-content: center;
 }
@@ -112,7 +113,7 @@ body {
     
 .contest h2 {
     color: white;
-    font-size: 150%;
+    font-size: 18px;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -127,9 +128,10 @@ body {
     width: 20%;
 }
 
-
 .referee {
     margin-top: 250px;
+    width: 100px;
+    text-align: center;
 }
 
 .decision h4 {
