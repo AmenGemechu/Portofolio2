@@ -18,9 +18,11 @@ The design goal was to include minimalist but useful information with eye atract
 RPS+ is designed to be responsive and accessible on a range of devices, making it easy to use for everyone.
 
 ## Header
-* The Logo image is found is at the top of the screen making it easy to understand what the site is about by displaying the Rock Paper Scisorss Lizard Spock text with the hand simboles.
+* The Logo is found is at the top of the screen making it easy to understand what the site is about by displaying the Rock Paper Scisorss Lizard Spock text.
 
-![header-ss](https://user-images.githubusercontent.com/81637641/230887637-3970d841-c4d6-4627-a1bc-8646698ce445.png)
+![Screenshot 2023-04-10 at 14-31-06 RPS](https://user-images.githubusercontent.com/81637641/230901972-b62adfec-43ff-4281-a775-08e6b8cf3ab1.png)
+
+
 
 * Right under the header is a text display that tells the yuser what they should do to start the game.
 
@@ -70,7 +72,7 @@ Rules of the game are displayed on last section of both pages right before the f
 ## Footer
 The footer displays author name copy right icon and date.
 
-![footer-ss](https://user-images.githubusercontent.com/81637641/230890656-7e03b77c-ea0a-4355-a2ad-d630a7379326.png)
+![Screenshot 2023-04-10 at 14-33-09 RPS](https://user-images.githubusercontent.com/81637641/230902215-fe12c978-da3c-4e14-9da2-cd54337a9f49.png)
 
 
 ## Target audience
@@ -89,10 +91,6 @@ Making the game much more enjoyable by reducing the chance of a match ending wit
 * As a user, I can switch between the first-page and contest area with just one click.
 * As a user, I can simply refresh my memories on the rules without having to go for a search ealse where.
 
-## Skeleton
-
-The wireframes were created using Balsamic.
-image of wireframe
 
 ## Languages
 * HTML
@@ -194,20 +192,20 @@ Media
    The screenshot used on the README to show hand simboles was taken from:
     https://www.google.com/search?q=rock+Paper+Scissors+Lizard+Spock&client=ubuntu-sn&hs=Y6N&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilxpiG3JT-AhWBVfEDHRPxDJsQ_AUoAXoECAIQAw&biw=954&bih=1067&dpr=1#imgrc=9JdIt2J_csOtnM
     
+    
+    Instructions on how to incremnt score were taken form w3c school tutorial.
+    
 
 # Bugs
+* Scrole screen on first page:
+ * Fixed by replacing logo image with logo text.
+ 
+* Trouble generating computer icon and user icon generating randomly:
+ * Fixed by exchanging "getElementById" with "document.querySelector".
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+# Unfixed bugs 
+ * none
 
 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-Content
-
-    The text for the Home page was taken from Wikipedia Article A
-    Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-    The icons in the footer were taken from Font Awesome
 
 
