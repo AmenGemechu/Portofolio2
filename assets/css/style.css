@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    background-color: black;
+    background-color: #513751;
 }
 
 .wrapper {
@@ -79,8 +79,8 @@ body {
 
 .hands img {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-top: 4%;
 }
 .hands img:hover {
