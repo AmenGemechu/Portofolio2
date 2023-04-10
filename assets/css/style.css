@@ -21,7 +21,9 @@ body {
 }
 
 .header {
-    margin-top: 10%;
+    margin-top: 5%;
+    color: #fff;
+    text-align: center;
 }
 .header img {
     width: 200px;
@@ -174,10 +176,9 @@ body {
 }
 
 footer p {
-    bottom: 0;
-    background-color: #fff;
     text-align: center;
     font-size: 20px;
     height: 10%;
+    color: #fff;
 
 }
