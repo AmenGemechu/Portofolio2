@@ -1,5 +1,8 @@
 # RPS+
-[View the live RPS+ here](https://amengemechu.github.io/Portofolio2/)
+[View the live site here](https://amengemechu.github.io/Portofolio2/)
+
+![responsive](https://user-images.githubusercontent.com/81637641/230965283-eb870892-7774-4717-ab5e-e74c30c89741.png)
+
 
 
 RPS+ is a five-gesture expansion of the classic selection method game rock-paper-scissors. It operates on the same basic principle, but includes two additional characters: lizard and Spock.
@@ -110,6 +113,9 @@ The RPS+ Logo featured at the top of the page will make it easy for the user to 
  
 # score
   The user will be able to see their score and a text display will make it known to the user if they won/lost or if it is a a tie.
+
+## Wireframe 
+The wireframes for were created using Balsamiq.
 
 
 ## Rules
