@@ -139,8 +139,9 @@ body {
     text-align: center;
 }
 
-.decision h4 {
+.decision h2 {
     text-align: center;
+    font-size: 100%;
 }
 
 .newgame {
