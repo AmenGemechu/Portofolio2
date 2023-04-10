@@ -126,6 +126,14 @@ The rules of Rock-paper-scissors-lizard-Spock are:
 
 
 ## Testing
+#Lighthouse
+
+Lighthouse testing:
+Perfrormance: 100%, Accessibility: 95%, Best Practice 100% and SEO: 90%.
+
+![lighthouse](https://user-images.githubusercontent.com/81637641/230870074-a7f87333-0c54-4ffc-a118-fce5a3c51a95.png)
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
