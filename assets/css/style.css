@@ -7,13 +7,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    background-color: #513751;
+    background-color: #883f88;
 }
 
 .wrapper {
     min-height: 95vh;
     min-width: 100%;
-    background: #513751;
+    background: #883f88;
     display: flex;
     flex-direction: column;
     align-items: center;
