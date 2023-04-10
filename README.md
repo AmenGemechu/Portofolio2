@@ -117,9 +117,15 @@ The RPS+ Logo featured at the top of the page will make it easy for the user to 
 ## Wireframe 
 The wireframes for were created using Balsamiq.
 
+![wireframe1](https://user-images.githubusercontent.com/81637641/230967133-ed5b5e8b-cc7c-4703-a0dd-54a1bf5af40f.png)
+
+
+  ![wireframe2](https://user-images.githubusercontent.com/81637641/230967176-9d8b1107-0efe-4769-ab79-a40dca4924f3.png)
 
 ## Rules
-    
+  
+
+
 Rules of the game are displayed at the bottom of the page with a clear contrat white background and black text.
 
 Rock-paper-scissors-lizard-Spock are:
@@ -203,14 +209,14 @@ Media
     
 
 # Bugs
-* Scrole screen on first page:
- * Fixed by replacing logo image with logo text.
+ * Scrole screen on first page:
+    Fixed by replacing logo image with logo text.
  
 * Trouble generating computer icon and user icon generating randomly:
- * Fixed by exchanging "getElementById" with "document.querySelector".
+    Fixed by exchanging "getElementById" with "document.querySelector".
 
 # Unfixed bugs 
- * none
+  none
 
 
 
