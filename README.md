@@ -1,5 +1,6 @@
 # RPS+
-[View the live game here](https://amengemechu.github.io/Portofolio2/)
+[View the live RPS+ here](https://amengemechu.github.io/Portofolio2/)
+
 
 RPS+ is a five-gesture expansion of the classic selection method game rock-paper-scissors. It operates on the same basic principle, but includes two additional characters: lizard and Spock.
 
@@ -11,25 +12,20 @@ The game was invented by Sam Kass with Karen Bryla, as "Rock Paper Scissors Liza
 There are ten possible pairings of the five gestures; each gesture beats two of the other gestures
 and is beaten by the remaining two.
 
-## User Story
-Create an interactive game Rock, Paper, Scissors Lizard Spock where the user plays against the computer.
+## Aim of the site
+The site’s goal is to provide fun and challenging game with reduced chance of a round ending in a tie to entertain users.
+The design goal was to include minimalist but useful information with eye atractive images and simple to use aproach.
+RPS+ is designed to be responsive and accessible on a range of devices, making it easy to use for everyone.
 
+## Header
 * The Logo image is found is at the top of the screen making it easy to understand what the site is about by displaying the Rock Paper Scisorss Lizard Spock text with the hand simboles.
 
-![Screenshot 2023-04-10 at 00-20-17 RPS](https://user-images.githubusercontent.com/81637641/230799229-e8a1414b-b21e-486b-8024-0742f2b37b6c.png)
+![header-ss](https://user-images.githubusercontent.com/81637641/230887637-3970d841-c4d6-4627-a1bc-8646698ce445.png)
 
+* Right under the header is a text display that tells the yuser what they should do to start the game.
 
-## Game Rules
+![instruction-ss](https://user-images.githubusercontent.com/81637641/230888554-d3c80cf3-78aa-429b-8b9c-0ca94f150c9e.png)
 
-Rules of the game are displayed on last section of both pages right before the footer.
-
-![Screenshot 2023-04-10 at 00-47-24 RPS](https://user-images.githubusercontent.com/81637641/230800056-5ce0d3de-a140-4c46-aad6-0c6f4d3d8be0.png)
-
-## Footer
-The footer holds Author name copy right icon and date.
-
-![Screenshot 2023-04-10 at 00-52-20 RPS](https://user-images.githubusercontent.com/81637641/230800150-97316fce-6552-421c-84e3-7f447c176d7b.png)
-    
 
 ## First (Introduction) page
 
@@ -49,26 +45,38 @@ The game area displays 5 control buttons for the user to select their choice.
 
 * Button 5 shows the vulcan hand gesture emoji from Star Trek and the word Spock underneath.
 
-![Screenshot 2023-04-10 at 00-25-30 RPS](https://user-images.githubusercontent.com/81637641/230799756-fca35f00-e100-4d9b-80cb-40c52f09276a.png)
+![intro-ss](https://user-images.githubusercontent.com/81637641/230888020-26ffd805-ad20-4604-b3c8-db6b0f2bf236.png)
 
-Once the user has pressed one of the choice buttons, the user will automaticly be taken to the contest-area and the code will generate a random choice to reflect the computers choice. Both choices will then be shown as a image in the contest area for the user and the score below will be updated accordingly.
-    
-![Screenshot 2023-04-10 at 00-40-45 RPS](https://user-images.githubusercontent.com/81637641/230800370-81a84ee4-7f16-42e3-9f9c-9cbf1f8b1114.png)
-  
-This page also includes a "play again" button that allows the user to continue playing as much as they wish.
+Once the user has clicks one of the buttons, the user will automaticly be taken to the contest-area and the code will generate a random choice to reflect the computers choice. Both choices will then be shown as a image in the contest area along with indication of user & computer icon.
 
-![Screenshot 2023-04-10 at 01-02-35 RPS](https://user-images.githubusercontent.com/81637641/230800490-4af1c6a9-4dbe-433d-80e8-97c44ad19486.png)
+![contest-ss](https://user-images.githubusercontent.com/81637641/230889259-125426e8-2d17-4b79-9615-840b65144639.png)
+## Score
+Score will be automatically updated when the user wins and on the right hand side of the score board a text will display whether the round was a win/lose or a tie.
+
+![score-ss](https://user-images.githubusercontent.com/81637641/230889903-a5d2a37c-7c4d-4f60-a96f-11e393954593.png)
+
+This page also includes a "play again" button that allows the user to continue playing as long as they wish.
+
+![play-again-ss](https://user-images.githubusercontent.com/81637641/230890020-7549ee21-990f-462f-88a4-a4d407c10b2a.png)
+
+
+## Game Rules
+
+Rules of the game are displayed on last section of both pages right before the footer, making it easy for users to familiarize them selves with the rules.
+
+![rules-ss](https://user-images.githubusercontent.com/81637641/230890354-79e50dc8-6d32-4596-a632-c270cb358fab.png)
+
+
+## Footer
+The footer displays author name copy right icon and date.
+
+![footer-ss](https://user-images.githubusercontent.com/81637641/230890656-7e03b77c-ea0a-4355-a2ad-d630a7379326.png)
 
 
 ## Target audience
 
-The target audience is anyone who is interested in playing learning about the
-clasic old Rock-Paper-Scissors games with tow new additional characters.
-
-## Aim of the site
-The site’s goal is to provide fun and challenging game with reduced chance of a round ending in a tie to entertain users.
-The design goal was to include minimalist but useful information with eye atractive images and simple to use aproach.
-RPS+ is designed to be responsive and accessible on a range of devices, making it easy to use for everyone.
+The target audience is anyone who is interested in playing or learning about the clasic old Rock-Paper-Scissors games with two new additional characters.
+Making the game much more enjoyable by reducing the chance of a match ending with a tie.
 
 ## User stories 
 
@@ -92,26 +100,25 @@ image of wireframe
 * JavaScript 
 
 # Features
-
-   The RPS+ Logo and Heading
-    Featured at the top of the page, the RPS+ logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+The RPS+ Logo featured at the top of the page will make it easy for the user to be able tell what the site is about right away.
 
  # The Game Area
-   This section will allow the user to select an icon and start the game. The user will be able to easily see icons for rock, paper, scissors, lizard and spock.
+   This section will allow the user to select an icon and start the game. The user will be able to easily see icons for rock, paper, scissors, lizard and spock, along with a text telling them what to do to start the game.
 
 # Contest Area
 
   The contest area is where the user will be able to continue to play the game by clicking the "Play Again" butten.
   
-  
-
+ 
 # score
   The user will be able to see their score and a text display will make it known to the user if they won/lost or if it is a a tie.
 
 
 ## Rules
     
-The rules of Rock-paper-scissors-lizard-Spock are:
+Rules of the game are displayed at the bottom of the page with a clear contrat white background and black text.
+
+Rock-paper-scissors-lizard-Spock are:
 * Scissors cut paper
 * Paper covers rock
 * Rock crushes lizard
@@ -126,50 +133,73 @@ The rules of Rock-paper-scissors-lizard-Spock are:
 
 
 ## Testing
-#Lighthouse
+Website was tested using:
+* W3C HTML Validator
+  No errors were returned when passing through the official W3C validator
 
-Lighthouse testing:
-Perfrormance: 100%, Accessibility: 95%, Best Practice 100% and SEO: 90%.
+![Screenshot 2023-04-10 at 00-01-47 Showing results for https __amengemechu github io_Portofolio2_ - Nu Html Checker](https://user-images.githubusercontent.com/81637641/230892755-26b35ce0-1c03-4e61-92dd-62776383d333.png)
+
+* W3C CSS Validator
+  No errors were found when passing through the official (Jigsaw) 
+
+![Screenshot 2023-04-10 at 00-02-50 W3C CSS Validator results for https __amengemechu github io_Portofolio2_ (CSS level 3 SVG)](https://user-images.githubusercontent.com/81637641/230892832-e3163698-4e71-4e79-8864-6d9de5971e9a.png)
+
+* JSHint JavaScript Validator
+  No errors were found when passing through the official Jshint validator
+      The following metrics were returned:
+* Metrics
+There are 6 functions in this file.
+
+Function with the largest signature take 2 arguments, while the median is 1.
+
+Largest function has 60 statements in it, while the median is 4.
+
+The most complex function has a cyclomatic complexity value of 51 while the median is 1.
+
+* warnings
+ 	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+10	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+* Lighthouse
 
 ![lighthouse](https://user-images.githubusercontent.com/81637641/230870074-a7f87333-0c54-4ffc-a118-fce5a3c51a95.png)
 
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here:
+https://amengemechu.github.io/Portofolio2/
 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+In addition the site was tested on the folowing browsers and screen sizes.
+* Google chrome
+* Safari
+* Firefox
+* iPhone SE, 12 & 14
+* Galaxy S10 & S20
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+They all work as intended, with the page contentes displayed fittingly and functioning well.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+As a result there was no need to write Media query for different screen sizes.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-Validator Testing
+## Credits
+Media
+   The image used for the header was taken from: google images.
+   
+   The images used for the game simboles were taken from google images and edited by 3d paint to fit to the site.
+   
+   The screenshot used on the README to show hand simboles was taken from:
+    https://www.google.com/search?q=rock+Paper+Scissors+Lizard+Spock&client=ubuntu-sn&hs=Y6N&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilxpiG3JT-AhWBVfEDHRPxDJsQ_AUoAXoECAIQAw&biw=954&bih=1067&dpr=1#imgrc=9JdIt2J_csOtnM
+    
 
-    HTML
-        No errors were returned when passing through the official W3C validator
-    CSS
-        No errors were found when passing through the official (Jigsaw) validator
-    JavaScript
-        No errors were found when passing through the official Jshint validator
-            The following metrics were returned:
-            There are 11 functions in this file.
-            Function with the largest signature takes 2 arguments, while the median is 0.
-            Largest function has 10 statements in it, while the median is 3.
-            The most complex function has a cyclomatic complexity value of 4 while the median is 2.
-
-Unfixed Bugs
+# Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-    The site was deployed to GitHub pages. The steps to deploy are as follows:
-        In the GitHub repository, navigate to the Settings tab
-        From the source section drop-down menu, select the Master Branch
-        Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found here - https://amengemechu.github.io/Portofolio2/
-Credits
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
@@ -180,10 +210,4 @@ Content
     Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
     The icons in the footer were taken from Font Awesome
 
-Media
-   The image used for the header was taken from: google images.
-   
-   The screenshot used on the README to show hand simboles was taken from:
-    https://www.google.com/search?q=rock+Paper+Scissors+Lizard+Spock&client=ubuntu-sn&hs=Y6N&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilxpiG3JT-AhWBVfEDHRPxDJsQ_AUoAXoECAIQAw&biw=954&bih=1067&dpr=1#imgrc=9JdIt2J_csOtnM
-    
-   The images used for the game area were taken from this other open source site
+
